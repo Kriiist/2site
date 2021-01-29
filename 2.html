@@ -11,16 +11,17 @@
     <h1 class="nameForm">freeCodeCamp Survey Form</h1>
     <p class="textUnderNameForm">Thank you for taking the time to help us improve the platform</p>
     <form>
+      <div class="form">
       <!--First four-->
       <p class="textForm name">Name</p>
-      <input type="text" id="inputField iName">
+      <input type="text" class="inputField iName">
       
       <p class="textForm email">Email</p>
-      <input type="text" id="inputField iEmail">
+      <input type="text" class="inputField iEmail">
 
-      <p class="textForm age">Age
-        (optional)</p>
-      <input type="text" id="inputField iAge">
+      <p class="textForm age">Age <span class="t"> (optional)</span>
+        </p>
+      <input type="text" class="inputField iAge">
 
       <p class="textForm firstQuestion">Which option best describes your current role?</p>
      <!-- <input type="" id="inputField ifirstQuestion" >-->
@@ -31,12 +32,12 @@
       <option>Full Time Learner</option>
       <option>Prefer not to say</option>
       <option>Other</option>
-    </select>
+      </select>
       <!---->
       <p class="textForm variantsRB">Would you recommend freeCodeCamp to a friend?</p>
-      <label class="variantsRB1"><input type="radio" name="radioButtonFirstQ" id="iDefinitely" value="Definitely">Definitely</label>
-      <label class="variantsRB2"><input type="radio" name="radioButtonFirstQ" id="iMaybe" value="Maybe">Maybe</label>
-      <label class="variantsRB3"><input type="radio" name="radioButtonFirstQ" id="iNotsure" value="Notsure">Not sure</label>
+      <label class="variantsRB1"><input type="radio" name="radioButtonFirstQ" class="iDefinitely" value="Definitely">Definitely</label>
+      <label class="variantsRB2"><input type="radio" name="radioButtonFirstQ" class="iMaybe" value="Maybe">Maybe</label>
+      <label class="variantsRB3"><input type="radio" name="radioButtonFirstQ" class="iNotsure" value="Notsure">Not sure</label>
       <!---->
       <p class="textForm secondQuestion">What is your favorite feature of freeCodeCamp?</p>
       <select class="secondQuestionVar">
@@ -63,6 +64,7 @@
       <p class="textForm fiveQuestion">Any comments or suggestions?</p>
       <input type="text" id="inputField iComment">
       <input type="submit" value="Submit">
+    </div>
     </form>
   </div>
 </body>
