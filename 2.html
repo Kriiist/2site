@@ -8,31 +8,46 @@
 </head>
 <body>
   <div class="container">
-    <h1 class="nameForm"></h1>
-    <p class="textUnderNameForm"></p>
-    <div class="form">
+    <h1 class="nameForm">freeCodeCamp Survey Form</h1>
+    <p class="textUnderNameForm">Thank you for taking the time to help us improve the platform</p>
+    <form>
       <!--First four-->
-      <p class="textForm name"></p>
+      <p class="textForm name">Name</p>
       <input type="text" id="inputField iName">
       
-      <p class="textForm email"></p>
+      <p class="textForm email">Email</p>
       <input type="text" id="inputField iEmail">
 
-      <p class="textForm age"></p>
+      <p class="textForm age">Age
+        (optional)</p>
       <input type="text" id="inputField iAge">
 
-      <p class="textForm firstQuestion"></p>
+      <p class="textForm firstQuestion">Which option best describes your current role?</p>
      <!-- <input type="" id="inputField ifirstQuestion" >-->
-
+     <select class="firstQuestionVar">
+      <option class="tip">Select current role</option>
+      <option>Student</option>
+      <option>Full Time Job</option>
+      <option>Full Time Learner</option>
+      <option>Prefer not to say</option>
+      <option>Other</option>
+    </select>
       <!---->
-      <p class="textForm variantsRB"></p>
+      <p class="textForm variantsRB">Would you recommend freeCodeCamp to a friend?</p>
       <label class="variantsRB1"><input type="radio" name="radioButtonFirstQ" id="iDefinitely" value="Definitely">Definitely</label>
       <label class="variantsRB2"><input type="radio" name="radioButtonFirstQ" id="iMaybe" value="Maybe">Maybe</label>
       <label class="variantsRB3"><input type="radio" name="radioButtonFirstQ" id="iNotsure" value="Notsure">Not sure</label>
       <!---->
-      <p class="textForm secondQuestion"></p>
+      <p class="textForm secondQuestion">What is your favorite feature of freeCodeCamp?</p>
+      <select class="secondQuestionVar">
+        <option class="tip">Select an option</option>
+        <option>Challenges</option>
+        <option>Projects</option>
+        <option>Community</option>
+        <option>Open Source</option>
+      </select>
       <!-- <input type="" id="inputField ifirstQuestion" >-->
-      <p class="textForm variantsCB"></p>
+      <p class="textForm variantsCB">What would you like to see improved? (Check all that apply)</p>
       <label class="textCheck"><input type="checkbox" name="checkVariants" value="1">Front-end Projects</label>
       <label class="textCheck"><input type="checkbox" name="checkVariants" value="2">Back-end Projects</label>
       <label class="textCheck"><input type="checkbox" name="checkVariants" value="3">Data Visualization</label>
@@ -45,9 +60,10 @@
       <label class="textCheck"><input type="checkbox" name="checkVariants" value="10">Forum</label>
       <label class="textCheck"><input type="checkbox" name="checkVariants" value="11">Additional Courses</label>
   <!---->
-      <p class="textForm fiveQuestion"></p>
+      <p class="textForm fiveQuestion">Any comments or suggestions?</p>
       <input type="text" id="inputField iComment">
-    </div>
+      <input type="submit" value="Submit">
+    </form>
   </div>
 </body>
 </html>
