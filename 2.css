@@ -6,7 +6,7 @@ body{
   background-size:cover;
   background-position: center;
   height: 150vh;
-
+  background-attachment: fixed
 }
 
 .container{
@@ -18,12 +18,13 @@ padding-top: 40px;
   font-family: Arial, Helvetica, sans-serif;
   color: white;
   font-weight: 100;
+  
 }
 
 .textUnderNameForm{
   font-family: 'Poppins', sans-serif;
   color: white;
-  font-size: 1.2em;
+  font-size: 1.1em;
   font-style:italic;
   font-weight: lighter;
   
@@ -31,11 +32,11 @@ padding-top: 40px;
 .container{
   width: 710px;
   margin: 0 auto;
-  
+  font-size: 1.2em;
 }
 .form{
   position: absolute;
-  background-color:rgba(16, 16, 36, 0.8);
+  background-color:rgba(16, 16, 36, 0.616);
   height: auto;
   display: block;
   
@@ -55,6 +56,8 @@ padding-top: 40px;
   text-align: left;
   font-size: 20px;
   display: block;
+
+ 
 }
 
 .inputField{
@@ -67,13 +70,138 @@ padding-top: 40px;
 }
 
 .t{
-font-size: 0.75em;
+  font-size: 0.75em;
 }
 
-.firstQuestionVar{
-  width: 630px;
-  padding: 0px 0px 13px 0px;
+.firstQuestionVar,.secondQuestionVar{
+  padding: 0px 0px 10px 0px;
   border-radius: 0.4em;
   padding-left: 10px;
-  padding-top: 11px;
+  padding-top: 9px;
+  margin-top: -10px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  width: 636.5px;
+  color:#495057;
+  margin-left: 0.05em;
+  
+}
+
+option{
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 17px;
+  color:#495057;
+}
+
+.iAge,.iName,.iEmail{
+  text-align: left;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 17px;
+  color:#495057;
+  font-weight: 400;
+  padding: 0px 0px 10px 0px;
+  padding-left: 10px;
+  padding-top: 9px;
+  width: 624px;
+}
+
+.iAge{
+  padding-right:10px ;
+  width: 614px;
+}
+
+.radioButtonFirstQ{
+  position: relative;
+  display: inline-block;
+  text-align: left;
+  margin-top: -12px;
+  padding-bottom: 25px;
+}
+
+label,input [type="radio"]
+{
+  text-align: left;
+  display: block; 
+  padding-left: 0px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 18px;
+  color: white;
+ 
+  
+}
+.iDefinitely,.iMaybe,.iNotsure{
+ margin-left: -316px;
+ width:20px;
+ height:20px;
+ padding-bottom: 4px;
+ vertical-align: bottom ;
+}
+
+
+.variantsRB1, .variantsRB2,.variantsRB3{
+  padding-left: 0px;
+  padding-top: 10px;
+}
+.nameForm
+{
+  font-size: 1.7em;
+  
+}
+
+.textUnderNameForm{
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.rb{
+ 
+  padding-left: 5px;
+  
+}
+
+.textCheck{
+  margin-top: -35px;
+  padding-left: 0px;
+  padding-top: 42px;
+  line-height:0.6em;
+  font-size: 1em;
+}
+.tcheck{
+  width:20px;
+  height:20px;
+  line-height:0.6em;
+}
+
+.secondQuestionVar{
+  margin-bottom: 10px;
+}
+.variantsCB{
+  margin-bottom: 7px;
+}
+.fiveQuestion{
+  padding-top: 10px;
+}
+.iComment{
+  
+  height: 119px;
+  margin-top: -10px;
+  margin-bottom: 0px;
+  text-align: start;
+  padding: 6px 0px 0px 8px;
+  padding-top: -10px;
+  font-size: 17px;
+  border-radius: 0px;
+  
+}
+
+.submitbtn{
+  background-color: rgb(31, 163, 91);
+  width: 645px;
+  border-radius: 00.25em;
+  color: white;
+  font-size: 18px;
+  height: 50px;
+  margin-top: 30px;
+  margin-bottom: 60px;
+ 
 }
