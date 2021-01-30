@@ -181,6 +181,17 @@ label,input [type="radio"]
 .fiveQuestion{
   padding-top: 10px;
 }
+
+input{
+  border: 1px solid #ced4da;
+  border-radius: 0.15px;
+ 
+  outline:none;
+}
+input:active{
+  
+  border-color: #ced4da;
+}
 .iComment{
   
   height: 119px;
@@ -203,5 +214,55 @@ label,input [type="radio"]
   height: 50px;
   margin-top: 30px;
   margin-bottom: 60px;
+}
+
+@media only screen and (max-width : 641px) {
+  body{
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 auto;
+    width: 99%;
+  }
+  .nameForm{
+   
+    width: 90%;
+    margin: 0 auto;
+    padding: 0 auto;
+  }
+  .container{
+    position: absolute;
+  
+    width:87%;
+    text-align: center;
+    margin: 0 auto;
+    
+  
+  }
+  .form{
+  
+   margin: 0 auto;
+   padding-left: 10px;
+   padding-right:5px;
+
+  }
+  .inputField,.submitbtn{
+    width: 95%;
+  }
+  .firstQuestionVar,.secondQuestionVar{
+  width: 98%;
+  margin-left: -25px;
+  }
+  .iAge{
+    width: 93.5%;
+  }
+  .submitbtn{
+    margin-left: -20px;
+  }
+.text-on-form{
+  position: relative;
+  width:87%;
  
+  text-align: center;
+ 
+}
 }
